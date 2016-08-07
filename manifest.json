@@ -1,0 +1,16 @@
+{
+  "name": "/r/cscareerquestions total comment karma.",
+  "description": "Show a user's total /r/cscareerquestions comment karma next to the user's name. Incorporates data from top 10K users through 5/2016" ,
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": 
+    [
+        {
+            "matches":["http://www.reddit.com/*","https://www.reddit.com/*"],
+            "js":["jquery.js", "thing.js"]
+        }
+    ],
+  "manifest_version": 2
+}
